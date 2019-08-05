@@ -1,0 +1,24 @@
+{
+	"folders": [{
+		"path": "."
+	}],
+	"settings": {
+		"python.formatting.autopep8Path": "autopep8",
+		"python.formatting.autopep8Args": [
+			"--aggressive", "--aggressive",
+		],
+		"python.jediEnabled": false,
+		"python.formatting.provider": "autopep8",
+		"files.autoSave": "afterDelay",
+		"editor.formatOnSave": true,
+		"python.linting.enabled": true,
+		"python.linting.pep8Enabled": true,
+		"python.linting.pylintEnabled": false,
+		"python.venvFolders": [
+			"${workspaceFolder}\\.venv",
+		],
+		"python.testing.unittestEnabled": true,
+		"python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+		"python.linting.pep8Path": "pycodestyle"
+	}
+}
